@@ -14,6 +14,7 @@
 		19B35F7C21A4709600E6CB6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B35F7A21A4709600E6CB6C /* LaunchScreen.storyboard */; };
 		19B35F8721A4709600E6CB6C /* ProtocolDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B35F8621A4709600E6CB6C /* ProtocolDelegateTests.swift */; };
 		19B35F9221A4709600E6CB6C /* ProtocolDelegateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B35F9121A4709600E6CB6C /* ProtocolDelegateUITests.swift */; };
+		19B35FA221A4823700E6CB6C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B35FA121A4823700E6CB6C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		19B35F8D21A4709600E6CB6C /* ProtocolDelegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolDelegateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B35F9121A4709600E6CB6C /* ProtocolDelegateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDelegateUITests.swift; sourceTree = "<group>"; };
 		19B35F9321A4709600E6CB6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B35FA121A4823700E6CB6C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				19B35F7821A4709600E6CB6C /* Assets.xcassets */,
 				19B35F7A21A4709600E6CB6C /* LaunchScreen.storyboard */,
 				19B35F7D21A4709600E6CB6C /* Info.plist */,
+				19B35FA121A4823700E6CB6C /* SecondViewController.swift */,
 			);
 			path = ProtocolDelegate;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B35FA221A4823700E6CB6C /* SecondViewController.swift in Sources */,
 				19B35F7421A4709400E6CB6C /* ViewController.swift in Sources */,
 				19B35F7221A4709400E6CB6C /* AppDelegate.swift in Sources */,
 			);
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CT58RYXS23;
 				INFOPLIST_FILE = ProtocolDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CT58RYXS23;
 				INFOPLIST_FILE = ProtocolDelegate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
